@@ -1,0 +1,60 @@
+﻿{
+  "configurations": [
+    {
+      "name": "x64-Debug",
+      "generator": "Visual Studio 16 2019 Win64",
+      "configurationType": "Debug",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "buildRoot": "${projectDir}\\buildcmake\\build\\${name}",
+      "installRoot": "${projectDir}\\buildcmake\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "variables": [
+        {
+          "name": "glbinding_DIR",
+          "value": "C:/work/dev/src/glbinding",
+          "type": "PATH"
+        },
+        {
+          "name": "glfw3_DIR",
+          "value": "C:/work/dev/lib/glfw/lib/cmake/glfw3",
+          "type": "PATH"
+        },
+        {
+          "name": "glm_DIR",
+          "value": "C:/work/dev/src/glm/cmake/glm",
+          "type": "PATH"
+        }
+      ]
+    },
+    {
+      "name": "x64-Release",
+      "generator": "Ninja",
+      "configurationType": "Release",
+      "buildRoot": "${projectDir}\\releasecmake\\build\\${name}",
+      "installRoot": "${projectDir}\\releasecmake\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "inheritEnvironments": [ "msvc_x64" ],
+      "variables": [
+        {
+          "name": "glbinding_DIR",
+          "value": "C:/work/dev/src/glbinding",
+          "type": "PATH"
+        },
+        {
+          "name": "glfw3_DIR",
+          "value": "C:/work/dev/lib/glfw/lib/cmake/glfw3",
+          "type": "PATH"
+        },
+        {
+          "name": "glm_DIR",
+          "value": "C:/work/dev/src/glm/cmake/glm",
+          "type": "PATH"
+        }
+      ]
+    }
+  ]
+}

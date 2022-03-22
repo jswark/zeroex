@@ -1,2 +1,3 @@
 # zeroex
-c++, gfx, design and other dev. experiments
+
+overengineering system render a simple rectangle.
